@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<style type="text/css">
+	* {margin: 0;padding: 0;}
+	::-webkit-scrollbar {
+    display: none;
+}
+	.container{
+	width: 100%;
+	height: 100vh;
+	overflow-y: scroll;
+	scroll-snap-type: y mandatory;
+}
+.slides {
+	width: 100%;
+	height: 100vh;
+	display: inline-block;
+	align-items: center;
+	justify-content: center;
+	gap: 50px;
+	color: #fff;
+	scroll-snap-align: start;
+}
+.slides img{
+	width: 350px;
+}
+.slide1 {
+	background-image: url(images/tourist1.png);
+	width: 100%;
+	min-height: 100vh;
+}
+.slide2 {
+	background-image: url(images/t1.png);
+	width: 100%;
+	min-height: 100vh;
+}
+.slide3 {
+	background-image: url(images/t2.png);
+	width: 100%;
+	min-height: 100vh;
+}
+.slide4 {
+	background-image: url(images/t3.png);
+	width: 100%;
+	min-height: 100vh;
+}
+.slide5 {
+	background-image: url(images/t4.png);
+	width: 100%;
+	min-height: 100vh;
+}
+.slide6 {
+	background-image: url(images/t5.png);
+	width: 100%;
+	min-height: 100vh;
+}
+.slide7 {
+	background-image: url(images/t6.png);
+	width: 100%;
+	min-height: 100vh;
+}
+.slide8 {
+	background-image: url(images/t7.png);
+	width: 100%;
+	min-height: 100vh;
+}
+.slide9 {
+	background-image: url(images/t8.png);
+	width: 100%;
+	min-height: 100vh;
+}
+.slide10 {
+	background-image: url(images/t9.png);
+	width: 100%;
+	min-height: 100vh;
+}
+.slide11 {
+	background-image: url(images/t10.png);
+	width: 100%;
+	min-height: 100vh;
+}
+.slide12 {
+	background-image: url(images/t11.png);
+	width: 100%;
+	min-height: 100vh;
+}
+.slide13 {
+	background-image: url(images/t12.png);
+	width: 100%;
+	min-height: 100vh;
+}
+.slide14 {
+	background-image: url(images/t13.png);
+	width: 100%;
+	min-height: 100vh;
+}
+
+#bt {
+  position: fixed;
+  border-color: cyan;
+  cursor: pointer;
+  background: transparent;
+  margin: 20px 20px;
+  transition: transform .2s;
+  opacity: 0.5;
+}
+
+#bt:hover {
+  transform: scale(1.2);
+  opacity: 1;
+}
+
+	</style>
+</head>
+<body>
+	<div class="container">
+		<a href="newhome.html"><button id="bt"><h1>Home</h1></button></a>
+		<div class="slides slide1"></div>
+		<div class="slides slide2"></div>
+		<div class="slides slide3"></div>
+		<div class="slides slide4"></div>
+		<div class="slides slide5"></div>
+		<div class="slides slide6"></div>
+		<div class="slides slide7"></div>
+		<div class="slides slide8"></div>
+		<div class="slides slide9"></div>
+		<div class="slides slide10"></div>
+		<div class="slides slide11"></div>
+		<div class="slides slide12"></div>
+		<div class="slides slide13"></div>
+		<div class="slides slide14"></div>
+	</div>
+</body>
+</html>

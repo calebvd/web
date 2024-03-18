@@ -1,0 +1,123 @@
+@font-face {
+	font-family: bobbyjones;
+	src: url(fonts/bobbyjones.otf);
+}
+
+* {
+	padding: 0;
+	margin: 0;
+	font-family: 'bobbyjones';
+}
+
+body {
+	background-image: url(images/home.png);
+	overflow: hidden;
+}
+
+
+
+.btns {
+	display: block;
+	float: right;
+	margin: 400px 400px;
+}
+
+.btnA {
+	text-align: center;
+	height: 50px;
+	width: 250px;
+	border-radius: 20%;
+	transition: transform .2s;
+	cursor: pointer;
+	border: none;
+	outline: none;
+}
+
+.btnA:hover {
+	transform: scale(1.2);
+	background: #fff;
+	color: blue;
+}
+
+.btnB {
+	text-align: center;
+	height: 50px;
+	width: 250px;
+	border-radius: 20%;
+	transition: transform .2s;
+	cursor: pointer;
+	border: none;
+	outline: none;
+}
+
+.btnB:hover {
+	transform: scale(1.2);
+	color: steelblue;
+}
+
+.btnC {
+	text-align: center;
+	height: 50px;
+	width: 250px;
+	border-radius: 20%;
+	transition: transform .2s;
+	cursor: pointer;
+	border: none;
+	outline: none;
+}
+
+.btnC:hover {
+	transform: scale(1.2);
+	color: blue;
+}
+
+.btnD {
+	text-align: center;
+	height: 50px;
+	width: 250px;
+	border-radius: 20%;
+	transition: transform .2s;
+	cursor: pointer;
+	border: none;
+	outline: none;
+}
+
+.btnD:hover {
+	transform: scale(1.2);
+	background: #fff;
+	color: blue;
+}
+
+.btnE {
+	text-align: center;
+	height: 50px;
+	width: 250px;
+	border-radius: 20%;
+	transition: transform .2s;
+	cursor: pointer;
+	border: none;
+	outline: none;
+}
+
+.btnE:hover {
+	transform: scale(1.2);
+	background: #fff;
+	color: blue;
+}
+
+.btnF {
+	text-align: center;
+	height: 50px;
+	width: 250px;
+	border-radius: 20%;
+	transition: transform .2s;
+	cursor: pointer;
+	border: none;
+	outline: none;
+}
+
+.btnF:hover {
+	transform: scale(1.2);
+	background: #fff;
+	color: blue;
+}
